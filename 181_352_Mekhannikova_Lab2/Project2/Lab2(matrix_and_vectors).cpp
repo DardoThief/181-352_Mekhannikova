@@ -41,16 +41,13 @@ for (int i = 0; i < 3; i++)
 {
 	std::cout << Vector[i] << std::endl;
 }
-
 for (int i = 0; i < 3; i++) 
 {
-
 	for (int k = 0; k < 3; k++) 
 	{
 		a = Vector[i] * MatrixC[i][k];
 		sum = sum + a;
 	}
-	
 	Vector[i] = sum;
 	sum = 0;
 	std::cout << Vector[i] << std::endl;
@@ -80,6 +77,25 @@ int main()
 		arr3[i] = arr1[i] * arr2[i];
 		std::cout << arr3[i] << std::endl;
 
+	}
+	getchar();
+	return 0;
+}
+
+#include "stdafx.h"
+#include <iostream>
+#include <string>
+
+//скалярное произведение векторов
+int main()
+{
+	int Vector1[i], Vector2[i], res, n;
+	{
+	for (int i = 0; i < n; i++)
+		{
+			res = Vector1[i] * Vector2[i];
+		}
+		std::cout << res << std::endl;
 	}
 	getchar();
 	return 0;
