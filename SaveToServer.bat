@@ -7,3 +7,4 @@ git add *.bat
 git add *.users
 git commit -am "%DATE% %TIME%"
 git push origin master
+pause
