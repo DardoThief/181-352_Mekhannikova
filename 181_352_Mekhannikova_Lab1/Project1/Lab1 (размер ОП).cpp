@@ -1,5 +1,6 @@
 #include <iostream> //библиотека потокового ввода-вывода
 #include <string> //шаблонный класс
+#include <cstdio>
 
 int main()//точка старта
 {
