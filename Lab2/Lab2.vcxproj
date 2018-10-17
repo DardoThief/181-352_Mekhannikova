@@ -20,9 +20,15 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
+<<<<<<< HEAD:Lab2/Lab2.vcxproj
     <ProjectGuid>{16634530-49C4-4E21-BC84-195CC31A8866}</ProjectGuid>
     <RootNamespace>Lab2</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+=======
+    <ProjectGuid>{C5D377ED-F173-4E53-BFD0-82CBE1D2AB8B}</ProjectGuid>
+    <RootNamespace>Project2</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+>>>>>>> 8b13278739e3cd9eedcb965c6c059dc6a46df67e:181_352_Mekhannikova_Lab2/Project2/Project2.vcxproj
     <ProjectName>Lab2(matrix)</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />

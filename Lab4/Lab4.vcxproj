@@ -20,11 +20,18 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
+<<<<<<< HEAD:Lab4/Lab4.vcxproj
     <ProjectGuid>{8B6A5F6A-A5A1-4DD6-B85A-1844049B3809}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>Lab4</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
     <ProjectName>Lab4(functions)</ProjectName>
+=======
+    <ProjectGuid>{B1304ABD-8BDE-4F24-9F7A-EED86261C587}</ProjectGuid>
+    <RootNamespace>Project1</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <ProjectName>Lab1(razmerOP)</ProjectName>
+>>>>>>> 8b13278739e3cd9eedcb965c6c059dc6a46df67e:181_352_Mekhannikova_Lab1/Project1/Project1.vcxproj
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
