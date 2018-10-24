@@ -1,6 +1,7 @@
+#include "stdafx.h"
 #include <iostream>
 #include <string>
-#include "stdafx.h"
+
 using namespace std;
 
 int main()
@@ -22,7 +23,7 @@ int main()
 		{
 			for (int c = 0; c < 3; c++)
 			{
-				cResult[i][j] += aMatrix[i][c] * bMatrix[c][i];
+				cResult[i][j] += aMatrix[i][c] * bMatrix[c][j];
 			}
 			cout << cResult[i][j] << "\t";
 		}
@@ -31,21 +32,18 @@ int main()
 
 
 	//произведение матрицы на вектор
-	int Vector[3][1] = { 3, 2, 3 };
+	int Vector[3] = { 3, 2, 3 };
 	int sum = 0;
 	int MatrixC[3][3] = { { 3, 3, 3 },
 						{ 2, 2, 2 },
 						{ 1, 1, 1 } };
 
 	for (int i = 0; i < 3; i++)
-	{
-		for (int j = 0; j < 1; j++)
 		{
 			for (int k = 0; k < 3; k++)
 			{
-				sum += Vector[i][j] * MatrixC[i][k];
+				sum += Vector[i] * MatrixC[i][k];
 			}
-		}
 		cout << sum << "  " << endl;
 	}
 
@@ -59,13 +57,9 @@ int main()
 	{
 		for (int col = 0; col < 3; col++)
 		{
-			for (int inner = 0; inner < 2; inner++)
-			{
-				product[row][col] = cMatrix[row][inner] * dMatrix[inner][col];
-			}
-			cout << product[row][col] << "  ";
+			product[row][col] = cMatrix[row][col] * dMatrix[row][col];
+			cout << product[row][col] << "  " << endl;
 		}
-		cout << "\n";
 	}
 
 
