@@ -6,22 +6,36 @@ using namespace std;
 class matr
 {
 private:
-	double * data;
+	double ** data;
 	unsigned int n, m;
 public:
 	matr();
 	matr(unsigned int n, unsigned int m);
-	matr(double *, unsigned int n, unsigned int m);
+	matr(double ** pdata, unsigned int n, unsigned int m);
 
-	void mul(double*, unsigned int n, unsigned int m);
+	void mul(double**pdata, unsigned int n, unsigned int m);
 	{
 		for (int i = 0; i < n; i++)
 		{
 			for (int j = 0; j < m; j++)
-				data[2][2] += 
+				data[n][m] += 
 		}
 	}
 	void emul();
+	{
+		for (int i = 0; i < n; i++)
+		{
+			for (int j = 0; j < m; j++)
+				this->data[][] *= pdata[][]
+		}
+	}
 	void sum();
+	{
+		for (int i = 0; i < n; i++)
+		{
+			for (int j = 0; j < m; j++)
+				this->data[][] += pdata[][]
+		}
+	}
 	void print();
 };

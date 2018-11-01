@@ -72,13 +72,13 @@ int main()
 
 	mat mat1, mat2, mat3;
 	mat1.columns;
-	mat1.inc(); //увеличение на 1
-	mat++;
+	//mat1.inc(); //увеличение на 1
+	//mat++;
 
 	mat3 = mat1 + mat2; //унарный оператор
-	mat3 = some_add_function(mat1, mat2); //бинарный оператор
+	//mat3 = some_add_function(mat1, mat2); //бинарный оператор
 
-	string str1, str2, str3;
-	str1 = str2 + str3;
+	//string str1, str2, str3;
+	//str1 = str2 + str3;
 	
 }
