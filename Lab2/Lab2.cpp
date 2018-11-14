@@ -1,4 +1,3 @@
-#include "stdafx.h"
 #include <iostream>
 #include <string>
 
@@ -28,9 +27,9 @@ int main()
 			cout << cResult[i][j] << "\t";
 		}
 		cout << "\n";
-	}
-
-
+		
+	};
+cout << "\n";
 	//произведение матрицы на вектор
 	int Vector[3] = { 3, 2, 3 };
 	int sum = 0;
@@ -44,27 +43,30 @@ int main()
 			{
 				sum += Vector[i] * MatrixC[i][k];
 			}
-		cout << sum << "  " << endl;
-	}
-
+		cout << sum << "\t";
+		};
+	cout << "\n";
+	cout << "\n";
 
 	//поэлементное произведение матриц
-	int cMatrix[3][2] = { { 1, 4 },{ 2, 5 },{ 3, 6 } };
-	int dMatrix[2][3] = { { 7, 8, 9 },{ 10, 11, 12 } };
-	int product[3][3] = { { 0, 0, 0 },{ 0, 0, 0 },{ 0, 0, 0 } };
+	int cMatrix[2][2] = { { 1, 4 },{ 2, 5 } };
+	int dMatrix[2][2] = { { 7, 8 },{ 10, 11} };
+	int product[2][2] = { 0 };
 
-	for (int row = 0; row < 3; row++)
+	for (int row = 0; row < 2; row++)
 	{
-		for (int col = 0; col < 3; col++)
+		for (int col = 0; col < 2; col++)
 		{
 			product[row][col] = cMatrix[row][col] * dMatrix[row][col];
-			cout << product[row][col] << "  " << endl;
+			cout << product[row][col] << "\t";
 		}
-	}
-
+		cout << "\n";
+	};
+	cout << "\n";
 
 	//скалярное произведение векторов
-	int Vector1[3], Vector2[3];
+	int Vector1[3] = { 1, 2, 3 }; 
+	int Vector2[3] = { 2, 3, 4 };
 	int res = 0;
 
 		for (int i = 0; i < 3; i++)
